@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+        />
+
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            "royal-100": "#0CCEE8",
+                            "royal-200": "#59AAE8",
+                            "royal-300": "#4169E1",
+                            "royal-400": "#0C88E8",
+                            "royal-500": "#1909EB",
+                            "royal-600": "#2108aa",
+                            "royal-700": "#160385",
+                            "royal-800": "#07528b",
+                            "royal-900": "#05365d",
+                            "royal-1000": "#021b2e",
+                        },
+                        fontFamily: {
+                            montserrat: ["Montserrat"],
+                            lato: ["Lato"],
+                            garamond: ["Garamond"],
+                        },
+                    },
+                },
+            };
+        </script>
+    </head>
+    <body>
+        <header class="h-[105vh] bg-gray-300">
+            <div class="h-40 bg-royal-500 flex justify-between items-center px-40">
+                <h1 class="font-sans text-4xl font-bold leading-[46px] mb-3 uppercase relative font-montserrat">
+                    Sophi<sub class="text-white">Advocacia</sub>
+                </h1>
+            </div>
+            <div class="flex justify-start items-start px-40 mt-20">
+                <div class="w-1/2 px-10 py-5">
+                    <h1 class="font-sans text-4xl font-bold leading-[46px] mb-5">
+                        Defenda seus direitos com confiança:
+                        <br />
+                        Advocacia de excelência ao seu lado.
+                    </h1>
+                    <p class="font-sans text-xl font-normal max-w-[80%] mb-10">
+                        Conhecimento especializado para suas demandas: <br />
+                        Expertise em Administração, Direito do Trabalho e Tributário.
+                    </p>
+                    <a href="#" class="block w-52 text-center bg-gray-700 text-white uppercase py-3 hover:bg-gray-900 text-xl">
+                        Fale comigo
+                    </a>
+                </div>
+                <div class="pl-64 w-1/2 px-10 py-5">
+                    <div class="w-[400px] h-[500px] bg-royal-400 relative shadow-black shadow-md rounded-lg">
+                        <div class="text-white text-center flex justify-center items-center h-full">
+                            <img src="./sophi.jpeg" class="w-full h-full rounded-lg object-cover" />
+                        </div>
+                        <div
+                            class="absolute w-[180px] h-[240px] bg-royal-100 rounded-lg top-[30%] -left-[45%] translate-x-1/2 -translate-y-1/2 shadow-black shadow-lg overflow-hidden pb-4"
+                        >
+                            <div class="relative h-full">
+                                <div class="flex justify-start items-center px-2 py-3">
+                                    <div class="w-12 h-12 rounded-full bg-white mr-10">
+                                        <img src="./eu.png" class="object-cover w-full h-full rounded-full" />
+                                    </div>
+                                    <div class="mr-2">5,0</div>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="20"
+                                        height="20"
+                                        version="1.1"
+                                        viewBox="0 0 47.94 47.94"
+                                        xml-space="preserve"
+                                    >
+                                        <path
+                                            fill="#ED8A19"
+                                            d="M26.285 2.486l5.407 10.956a2.58 2.58 0 001.944 1.412l12.091 1.757c2.118.308 2.963 2.91 1.431 4.403l-8.749 8.528a2.582 2.582 0 00-.742 2.285l2.065 12.042c.362 2.109-1.852 3.717-3.746 2.722l-10.814-5.685a2.585 2.585 0 00-2.403 0l-10.814 5.685c-1.894.996-4.108-.613-3.746-2.722l2.065-12.042a2.582 2.582 0 00-.742-2.285L.783 21.014c-1.532-1.494-.687-4.096 1.431-4.403l12.091-1.757a2.58 2.58 0 001.944-1.412l5.407-10.956c.946-1.919 3.682-1.919 4.629 0z"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <p class="px-4 text-[13px]">
+                                    Profissionalismo excepcional e resultados além das expectativas. Recomendo vivamente!
+                                </p>
+                                <h2 class="w-full text-xl font-bold text-center py-2 absolute bottom-1">Luiz Henrique!</h2>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute w-[80px] h-[100px] bg-[#ffc71f] rounded-lg bottom-[3%] right-[0%] translate-x-1/2 -translate-y-1/2 shadow-black shadow-lg overflow-hidden pb-4"
+                        >
+                            <img src="./advog.png" class="w-full h-full object-contain" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="w-full relative">
+            <div class="w-full flex justify-center items-center space-x-24 absolute -top-[50%] -translate-y-1/2">
+                <div class="border-[1px] border-black bg-royal-100 w-[350px] h-[350px] relative">
+                    <div class="flex justify-between items-center px-10 mb-5">
+                        <div>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="50"
+                                height="50"
+                                version="1.1"
+                                viewBox="0 0 512 512"
+                                xmlSpace="preserve"
+                            >
+                                <path
+                                    fill="#FF6464"
+                                    d="M423.231 471.606l-77.852-226.499H166.621L88.769 471.606c-2.292 6.668 3.773 13.199 10.592 11.407l45.614-11.985 28.606 37.495c4.277 5.606 13.075 4.183 15.367-2.485L256 310.959l67.052 195.08c2.292 6.667 11.09 8.091 15.367 2.485l28.606-37.495 45.614 11.985c6.819 1.79 12.884-4.74 10.592-11.408z"
+                                ></path>
+                                <path
+                                    fill="#D2555A"
+                                    d="M374.645 330.253l-29.266-85.146H166.621l-29.266 85.146c27.811 21.5 61.586 35.651 98.451 39.46L256 310.959l20.194 58.753c36.865-3.809 70.64-17.96 98.451-39.459z"
+                                ></path>
+                                <circle cx="256" cy="176.552" r="176.552" fill="#FFC36E"></circle>
+                                <path
+                                    fill="#FFD782"
+                                    d="M256 0C158.493 0 79.448 79.044 79.448 176.552c0 97.506 79.044 176.552 176.552 176.552s176.552-79.046 176.552-176.552C432.552 79.044 353.507 0 256 0zm0 326.621c-82.881 0-150.069-67.188-150.069-150.069S173.119 26.483 256 26.483s150.069 67.188 150.069 150.069S338.881 326.621 256 326.621z"
+                                ></path>
+                                <path
+                                    fill="#EBB45F"
+                                    d="M256 26.483c-82.881 0-150.069 67.188-150.069 150.069S173.119 326.621 256 326.621s150.069-67.188 150.069-150.069S338.881 26.483 256 26.483zm0 282.483c-73.13 0-132.414-59.284-132.414-132.414S182.87 44.138 256 44.138s132.414 59.284 132.414 132.414S329.13 308.966 256 308.966z"
+                                ></path>
+                                <path
+                                    fill="#FFD782"
+                                    d="M256.605 231.962L213.07 254.85c-7.207 3.789-15.629-2.33-14.253-10.356l8.314-48.477-35.221-34.332c-5.831-5.683-2.613-15.585 5.444-16.756l48.673-7.073 21.768-44.106c3.604-7.302 14.015-7.302 17.618 0l21.768 44.106 48.673 7.073c8.057 1.171 11.275 11.073 5.444 16.756l-35.221 34.332 8.314 48.477c1.376 8.025-7.047 14.144-14.253 10.356l-43.533-22.888z"
+                                ></path>
+                                <path
+                                    fill="#EBB45F"
+                                    d="M256.605 88.276c3.503 0 7.007 1.825 8.809 5.476l21.768 44.106 48.673 7.073c8.057 1.171 11.275 11.073 5.444 16.756l-35.22 34.332 8.314 48.477c1.089 6.349-3.957 11.506-9.681 11.506a9.776 9.776 0 01-4.573-1.15l-43.534-22.888-43.534 22.888a9.78 9.78 0 01-4.573 1.15c-5.725 0-10.77-5.156-9.681-11.506l8.314-48.477-35.22-34.332c-5.831-5.683-2.613-15.585 5.444-16.756l48.673-7.073 21.768-44.106c1.801-3.651 5.305-5.476 8.809-5.476m0-17.655c-10.536 0-19.978 5.869-24.641 15.318l-17.66 35.783-39.488 5.738c-10.426 1.515-18.926 8.681-22.183 18.701-3.256 10.02-.591 20.814 6.954 28.169l28.574 27.852-6.745 39.329c-1.374 8.008.828 16.143 6.037 22.324 5.262 6.242 12.934 9.822 21.045 9.822 4.412 0 8.834-1.099 12.789-3.178l35.319-18.569 35.319 18.569c3.955 2.079 8.377 3.178 12.789 3.178 8.111 0 15.782-3.581 21.045-9.823 5.209-6.179 7.411-14.316 6.037-22.323l-6.745-39.329 28.574-27.852c7.545-7.354 10.209-18.148 6.954-28.169-3.256-10.02-11.756-17.186-22.183-18.701l-39.488-5.738-17.66-35.783c-4.665-9.449-14.108-15.318-24.643-15.318z"
+                                ></path>
+                                <path
+                                    fill="#FFE6A0"
+                                    d="M335.854 144.93l-48.673-7.073-21.768-44.106c-3.604-7.302-14.015-7.302-17.618 0l-13.976 28.32 77.308 131.423c2.421-2.108 3.896-5.325 3.266-9l-8.314-48.477 35.22-34.332c5.829-5.683 2.613-15.584-5.445-16.755z"
+                                ></path>
+                                <g fill="#FFF">
+                                    <path
+                                        d="M361.07 84.531c-15.236-3.474-27.231-15.468-30.705-30.706a1.036 1.036 0 00-2.042 0c-3.474 15.236-15.468 27.231-30.705 30.706a1.036 1.036 0 000 2.042c15.236 3.474 27.231 15.467 30.705 30.705a1.036 1.036 0 002.042 0c3.474-15.238 15.468-27.231 30.705-30.705a1.036 1.036 0 000-2.042zM308.267 134.438c-9.274-2.402-16.577-9.705-18.979-18.979-.242-.931-1.447-.931-1.688 0-2.402 9.274-9.705 16.577-18.979 18.979-.931.242-.931 1.447 0 1.688 9.274 2.402 16.577 9.704 18.979 18.979.242.931 1.447.931 1.688 0 2.402-9.276 9.705-16.577 18.979-18.979.931-.242.931-1.448 0-1.688z"
+                                    ></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="text-end font-bold font-montserrat text-2xl p-5">Qualidade</div>
+                    </div>
+                    <p class="px-10 text-lg text-justify">
+                        Determinação trabalhista no âmbito jurídico. Criatividade e segurança para resolução de casos no ramo
+                        trabalhista,tributário e familiar.
+                    </p>
+                    <p class="font-bold text-center text-xl absolute bottom-3 w-full cursor-pointer hover:text-blue-600">Read More</p>
+                </div>
+                <div class="border-[1px] border-black bg-royal-100 w-[350px] h-[350px] relative">
+                    <div class="flex justify-between items-center px-10 mb-5">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none" viewBox="0 0 24 24">
+                                <path
+                                    stroke="#a0ffa0"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M6 7h1m-1 3h1m4 0h1m-1 3h1m-6 0h1m4-6h1M7 21v-3a2 2 0 114 0v3H7zm0 0H3V4.6c0-.56 0-.84.109-1.054a1 1 0 01.437-.437C3.76 3 4.04 3 4.6 3h8.8c.56 0 .84 0 1.054.109a1 1 0 01.437.437C15 3.76 15 4.04 15 4.6V9m4.7 4.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm1.8 7.5v-.5A2.5 2.5 0 0019 18h-1.5a2.5 2.5 0 00-2.5 2.5v.5h6.5z"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div class="text-end font-bold font-montserrat text-2xl p-5">Experiência</div>
+                    </div>
+                    <p class="px-10 text-lg text-justify">
+                        Semifinalista da ONHB durante o Ensino médio; Tecnóloga em Administração; Falante intermediária de inglês;
+                        Debatedora regional em PB.
+                    </p>
+                    <p class="font-bold text-center text-xl absolute bottom-3 w-full cursor-pointer hover:text-blue-600">Read More</p>
+                </div>
+                <div class="border-[1px] border-black bg-royal-100 w-[350px] h-[350px] relative">
+                    <div class="flex justify-between items-center px-10 mb-5">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 -1 32 32">
+                                <g fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
+                                    <g fill="#382bf1" transform="translate(-256 -412)">
+                                        <path
+                                            d="M281.98 424v-6c3.952 0 3.993-.209 3.993 2s-1.787 4-3.993 4zm-1.996-2c0 4.418-3.574 10-7.984 10s-7.984-5.582-7.984-10v-6c0-.989 1.039-2 1.996-2h11.976c.957 0 1.996.979 1.996 2v6zm-17.964 2a3.997 3.997 0 01-3.993-4c0-2.209.041-2 3.993-2v6zm19.96-8c0-2.209-1.787-4-3.992-4h-11.976a3.996 3.996 0 00-3.992 4c-6.837 0-5.989-.001-5.989 4 0 3.313 2.681 6 5.989 6 .238 0 .466-.038.696-.07 1.34 3.924 4.497 7.459 8.286 7.998V440h-2.994a.999.999 0 00-.998 1c0 .553.447 1 .998 1h7.984a.999.999 0 00.998-1c0-.553-.447-1-.998-1h-2.994v-6.072c3.789-.539 6.946-4.074 8.287-7.998.229.032.457.07.695.07a5.995 5.995 0 005.989-6c0-4.001.848-4-5.989-4z"
+                                        ></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="text-end font-bold font-montserrat text-2xl p-5">Prêmios</div>
+                    </div>
+                    <p class="px-10 text-lg text-justify">Honra em debates no modelo PB e processos dos Direitos Humanos.</p>
+                    <p class="font-bold text-center text-xl absolute bottom-3 w-full cursor-pointer hover:text-blue-600">Read More</p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-royal-500 py-10 h-screen">
+            <div class="flex flex-col justify-center items-center mt-[250px]">
+                <h1 class="text-4xl font-sans text-center text-white uppercase">Veja como posso te ajudar:</h1>
+                <div class="w-[250px] mx-auto my-4 h-[2px] bg-orange-500"></div>
+                <div class="px-40 my-20 flex justify-center items-center space-x-20">
+                    <div class="w-[350px] h-[460px] border-[1px] border-white overflow-hidden relative group">
+                        <div class="w-full h-full">
+                            <img
+                                src="./pensao.jpg"
+                                class="object-cover w-full h-full transition-all delay-100 group-hover:scale-110 cursor-help group-hover:opacity-[.6]"
+                            />
+                        </div>
+                        <p
+                            class="text-2xl px-5 font-semibold w-full absolute bottom-3 text-center text-gray-200 transition-all delay-100 group-hover:text-white font-montserrat"
+                        >
+                            Pensão Alimentícia
+                        </p>
+                    </div>
+
+                    <div class="w-[350px] h-[460px] border-[1px] border-white overflow-hidden relative group">
+                        <div class="w-full h-full">
+                            <img
+                                src="./guarda.jpg"
+                                class="object-cover w-full h-full transition-all delay-100 group-hover:scale-110 cursor-help group-hover:opacity-[.6]"
+                            />
+                        </div>
+                        <p
+                            class="text-2xl px-5 font-semibold w-full absolute bottom-3 text-center text-gray-200 transition-all delay-100 group-hover:text-white font-montserrat"
+                        >
+                            Guarda dos Filhos
+                        </p>
+                    </div>
+
+                    <div class="w-[350px] h-[460px] border-[1px] border-white overflow-hidden relative group">
+                        <div class="w-full h-full">
+                            <img
+                                src="./visita.jpg"
+                                class="object-cover w-full h-full transition-all delay-100 group-hover:scale-110 cursor-help group-hover:opacity-[.6]"
+                            />
+                        </div>
+                        <p
+                            class="text-2xl px-5 font-semibold w-full absolute bottom-3 text-center text-gray-200 transition-all delay-100 group-hover:text-white font-montserrat"
+                        >
+                            Regulamentação de visitas
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="dark:bg-royal-600">
+            <div class="mx-auto w-full max-w-screen-xl">
+                <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Companhia</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline"> Sobre </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline"> Clientes </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline"> Centro de Atendimento </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline"> Blog </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Central de Ajuda</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline"> Instagram </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline"> Twitter </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline"> Facebook </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline"> Contact Us </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline"> Privacy Policy </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#"800
+                                900
+                                1000 class="hover:underline"> Licensing </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline"> Terms &amp; Conditions </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline"> iOS </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline"> Android </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline"> Windows </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline"> MacOS </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="px-4 py-6 bg-gray-100 dark:bg-royal-1000 md:flex md:items-center md:justify-between">
+                    <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
+                        © 2024 <a href="#">SophiAdvocacia</a>. All Rights Reserved.
+                    </span>
+                    <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-xReverse">
+                        <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                            <svg
+                                class="w-4 h-4"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 8 19"
+                            >
+                                <path
+                                    fillRule="evenodd"
+                                    d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                                    clipRule="evenodd"
+                                />
+                            </svg>
+                            <span class="sr-only">Facebook page</span>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                            <svg
+                                class="w-4 h-4"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 21 16"
+                            >
+                                <path
+                                    d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"
+                                />
+                            </svg>
+                            <span class="sr-only">Discord community</span>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                            <svg
+                                class="w-4 h-4"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 20 17"
+                            >
+                                <path
+                                    fillRule="evenodd"
+                                    d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                                    clipRule="evenodd"
+                                />
+                            </svg>
+                            <span class="sr-only">Twitter page</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
